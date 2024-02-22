@@ -1,0 +1,54 @@
+/* @import url(styles/style.css);
+@import url(styles/medias-desktop.css); */
+@import url(modelos/style.css);
+
+@font-face { 
+    font-family: 'Gilroy Regular'; 
+    src: url('../fonts/Gilroy-Regular.ttf') format('TrueType'); 
+    font-weight: 400;
+}
+@font-face { 
+    font-family: 'Gilroy Medium'; 
+    src: url('../fonts/Gilroy-Medium.ttf') format('TrueType'); 
+    font-weight: 500;
+}
+@font-face { 
+    font-family: 'Gilroy SemiBold'; 
+    src: url('../fonts/Gilroy-SemiBold.ttf') format('TrueType'); 
+    font-weight: 600;
+}
+@font-face { 
+    font-family: 'Gilroy Bold'; 
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype'); 
+    font-weight: 700;
+}
+@font-face { 
+    font-family: 'Gilroy ExtraBold'; 
+    src: url('../fonts/Gilroy-ExtraBold.ttf') format('TrueType'); 
+    font-weight: 800;
+}
+@font-face { 
+    font-family: 'Gilroy Black'; 
+    src: url('../fonts/Gilroy-Black.ttf') format('TrueType'); 
+    font-weight: 900;
+}
+:root{
+    --font-poppins: "Poppins", sans-serif;
+    --font-gilroy-regular: 'Gilroy Regular';
+    --font-gilroy-medium: 'Gilroy Medium';
+    --font-gilroy-semibold: 'Gilroy SemiBold';
+    --font-gilroy-bold: 'Gilroy Bold';
+    --font-gilroy-extrabold: 'Gilroy ExtraBold';
+    --font-gilroy-black: 'Gilroy Black';
+    --cor-branca: #fff;
+    --cor-branco-azulado: #dee6ff;
+    --cor-azul-claro: #63d4ff;
+    --cor-azul: #477bdc;
+    --cor-azul-2: #3358c5;
+    --cor-azul-escuro: #1a2f6d;
+    --cor-azul-marinho: #17333d;
+    --cor-cinza: #282e36;
+    --cor-cinza-2: #3e3e3e;
+    --cor-cinza-faq: #3e4557;
+}
+

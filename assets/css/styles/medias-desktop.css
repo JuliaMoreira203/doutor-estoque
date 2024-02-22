@@ -1,0 +1,271 @@
+@media screen and (min-width: 800px){
+    header{
+        background-image: url(../../images/bg-topo-desktop.png);
+        height: 420px;
+    }
+    .conteudo__topo {
+        max-width: 100%;
+        width: 50%;
+        justify-content: center;
+        height: 350px;
+        align-items: flex-start;
+        margin: 0 15%;
+    }
+    .conteudo__topo__escrita {
+        font-size: 35px;
+        text-align: left;
+        padding: 0.3em 0;
+        line-height: 1.1em;
+        border-bottom: none;
+    }
+    .conteudo__topo__escrita__linha > hr {
+        display: block;
+        opacity: 1;
+        width: 95%;
+        color: var(--cor-azul-claro);
+    }
+    .conteudo__site__escritas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    img.logo__doutor__estoque__organize {
+        width: 40%;
+        align-self: center;
+        margin-bottom: 45px;
+        margin-top: 15px;
+    }
+    .promovendo__uma__gestao {
+        width: 80%;
+        float: inline-end;
+        height: 420px;
+        background-position: left center;
+        border: 2px solid var(--cor-azul);
+        border-radius: 65px 0 0 65px;
+    }
+    .topicos__principais__vantagens__direita {
+        padding-left: 0em;
+    }
+    .topico__principais__direita {
+        justify-content: end;
+    }
+    .topico__principais__esquerda {
+        justify-content: start;
+    }
+    .topico__principais__titulo__contorno__direita {
+        padding: 3em 15em 3em 5em;
+        margin-left: -4em;
+        width: 57%;
+    }
+    .topico__principais__titulo__contorno__esquerda{
+        padding: 3em 5em 3em 15em;
+        margin-right: -4em;
+        width: 57%;
+    }
+    .topico__principais > img {
+        width: 9%;
+    }
+    .topico__principais__titulo__contorno__direita > h3, .topico__principais__titulo__contorno__esquerda > h3 {
+        font-size: 28px;
+    }    
+    .topico__principais__titulo__contorno__direita > p, .topico__principais__titulo__contorno__esquerda > p {
+        color: #464d5f;
+        font-size: 21px;
+    }
+    .conteudo__site {
+        padding: 3.5em 7em;
+    }
+    .barra__topo__md {
+        background-size: 45% 100%;
+        height: 65px;
+    }
+    section.barra__topo__md > h3 {
+        font-size: 23px;
+        margin-bottom: 3px;
+    }
+    .funcoes__exclusivas__bloco-a,
+    .funcoes__exclusivas__bloco-f {
+        height: 180px;
+    }
+    .funcoes__exclusivas__bloco-g {
+        height: 170px;
+    }
+    .funcoes__exclusivas__bloco-b,
+    .funcoes__exclusivas__bloco-d,
+    .funcoes__exclusivas__bloco-e {
+        height: 160px;
+    }
+    .funcoes__exclusivas__bloco-c {
+        height: 150px;
+    }
+    .funcoes__exclusivas__bloco-h {
+        height: 350px;
+        gap: 0px;
+        padding-bottom: 5em;
+    }
+    .topico__funcao {
+        justify-content: left;
+        gap: 25px;
+    }
+    .conteudo__topo__botao {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+    .btn__quero__fazer__teste__gratis {
+        font-size: 22px;
+    }
+    h2.titulo__funcoes__exclusivas {
+        font-size: 65px;
+    }
+    .topico__funcao > img {
+        width: 75px;
+    }
+    .topico__funcao > p {
+        font-size: 21px;
+    }
+    img.logo__doutor__estoque {
+        width: 60%;
+        align-self: center;
+    }
+    .valor__doutor__estoque {
+        padding: 3.5em 17vw;
+    }
+    .centavos__mes {
+        font-size: 28px;
+    }
+    .escrita__mes {
+        font-size: 21px;
+    }
+    .comece__agora__selo > p {
+        font-size: 21px;
+    }
+    .card__preco__doutor__estoque,
+    .bloco__interno__com__preco {
+        border-radius: 60px;
+    }
+    .card__preco__doutor__estoque > h3 {
+        font-size: 46px;
+        padding: 0 0.8em 0.8em;
+    }
+    .escrita__plano__basico {
+        font-size: 32px;
+    }
+    .bloco__interno__com__preco {
+        margin: 0 3em 3em;
+    }
+    .section__btn__comprar {
+        height: 95px;
+        margin-top: 20px;
+    }
+    .btn__compra__plano {
+        background-size: 49% 100%;
+        height: 85px;
+    }
+    .escrita__clique__no__btn, .bloco__btn__whatsapp > p {
+        padding: 0px 5vw;
+    }
+    .faq {
+        padding: 3em 10em 2em;
+    }
+    h2.titulo__faq,
+    .valor__plano {
+        font-size: 75px;
+    }
+    button.accordion-button.collapsed, button.accordion-button {
+        font-size: 21px;
+    }
+    .accordion-body {
+        padding: 30px 0 39px;
+        font-size: 19px;
+    }
+    .titulo__ainda__com__duvidas {
+        font-size: 45px;
+    }
+    .btn__whatsapp {
+        background-size: 63% 100%;
+        height: 92px;
+        font-size: 24px;
+    }
+    .escrita__clique__no__btn, .bloco__btn__whatsapp > p {
+        font-size: 15px;
+    }
+    .bloco__btn__whatsapp > p {
+        margin-top: 0px;
+    }
+    .bloco__informacoes__de__contato{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bloco__informacoes__de__contato > img {
+        width: 30%;
+    }
+    .dados__de__contato {
+        text-align: left;
+    }
+    .dados__de__contato__telefones {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .dados__de__contato__telefones > a,
+    .email__contato,
+    .ainda__com__duvidas__descricao {
+        font-size: 21px;
+    }
+    footer {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .conteudo__topo__escrita {
+        font-size: 43px;
+    }
+    .btn__quero__fazer__teste__gratis {
+        font-size: 24px;
+    }
+    h2.organize__titulo {
+        font-size: 70px;
+        margin-top: 0;
+    }
+    .organize__texto {
+        font-size: 21px;
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 1108px){
+    .conteudo__topo {
+        width: 45%;
+        height: 400px;
+    }
+    header {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 1312px){
+    .conteudo__topo {
+        width: 37%;
+    }
+}
+@media screen and (min-width:1500px){
+    header {
+        height: 600px;
+    }
+    .conteudo__topo {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 1608px){
+    .conteudo__topo {
+        width: 31%;
+    }
+}
+@media screen and (min-width: 1780px){
+    header {
+        height: 700px;
+    }
+    .conteudo__topo {
+        height: 600px;
+    }
+}
