@@ -76,7 +76,7 @@
 }
 img.logo__doutor__estoque__topo {
     width: 290px;
-    margin: 4em auto 3em;
+    margin: 4em auto 1.5em;
     position: relative;
     display: flex;
 }
@@ -105,6 +105,13 @@ img.logo__doutor__estoque__topo {
     text-align: center;
     font-weight: 800;
     color: var(--cor-azul-2);
+    margin-top: 1.5em;
+}
+.conteudo__simplifique__botao {
+    margin-bottom: 1em;
+}
+section.funcoes__exclusivas {
+    margin-top: 2em;
 }
 .btn__quero__ter__o__controle{
     background-image: url(../../images/fundo-botao-controle.png);
@@ -607,7 +614,7 @@ button.accordion-button {
 }
 .ainda__com__duvidas {
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 1.5em;
 }
 .titulo__ainda__com__duvidas{
     color: var(--cor-azul-2);
@@ -856,6 +863,9 @@ section.para__quem__somos {
 .escrita__clique__no__btn__comecar__agora {
     padding: 0.7em 4em;
     text-align: center;
+}
+section.container.section__para__quem {
+    display: none;
 }
 @media screen and (min-width: 800px){
     .barra__topo__md{
@@ -1168,12 +1178,10 @@ section.para__quem__somos {
     .section__para__quem{
         margin: 4em;
     }
-}
-/* @media screen and (min-width: 100px){
-    section.evite__prejuizo {
-        padding-top: 8em;
+    section.container.section__para__quem {
+        display: block;
     }
-} */
+}
 @media screen and (min-width: 1200px){
     .fundo__topo {
         height: 32em;
