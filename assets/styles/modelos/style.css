@@ -836,6 +836,7 @@ section.para__quem__somos {
     font-size: 18px;
     text-align: center;
     color: var(--cor-azul-escuro);
+    line-height: 1.3em;
 }
 .btn__quem__somos__comecar__agora {
     background-image: url(../../images/btn-quem-somos.png);
@@ -1270,9 +1271,24 @@ section.container.section__para__quem {
     }
 }
 @media screen and (min-width: 1700px){
+    .fundo__topo {
+        height: 42em;
+    }
+    .conteudo__topo {
+        height: 600px;
+        justify-content: center;
+        padding: 1.5em 0;
+        gap: 5em;
+    }
+    .fundo__imagem__para__quem {
+        height: 900px;
+    }
+    .bloco__para__quem__somos__texto {
+        margin-top: -20em;
+    }    
     .evite__prejuizo {
-        height: 1300px;
-        padding: 11em;
+        height: 1600px;
+        padding: 16em 13em 22em 13em;
     }
     .fundo__card__com__nossa__plataforma {
         padding: 45px 75px 40px;
@@ -1281,13 +1297,13 @@ section.container.section__para__quem {
         width: 40%;
     }
     .evite__prejuizo__titulos__topos > h2 {
-        font-size: 65px;
+        font-size: 79px;
     }
     .evite__prejuizo__titulos__topos {
         padding-right: 5em;
     }
     .evite__prejuizo__titulos__topos > h3 {
-        font-size: 40px;
+        font-size: 45px;
     }
     .coluna__promovendo__uma__gestao {
         height: 410px;
