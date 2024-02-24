@@ -912,7 +912,7 @@ section.container.section__para__quem {
     .btn__quero__ter__o__controle {
         background-image: url(../../images/btn-desktop-2.png);
         background-size: 90% 100%;
-        height: 108px;
+        height: 135px;
         font-size: 25px;
         padding-bottom: 17px;
     }
@@ -1180,6 +1180,9 @@ section.container.section__para__quem {
     section.container.section__para__quem {
         display: block;
     }
+    .btn__quero__fazer__teste__gratis, .btn__funcoes__exclusivas {
+        height: 105px;
+    }
 }
 @media screen and (min-width: 1200px){
     .fundo__topo {
@@ -1226,7 +1229,7 @@ section.container.section__para__quem {
     }
     .btn__funcoes__exclusivas{
         background-image: url(../../images/btn-desktop.png);
-        height: 105px;
+        height: 135px;
         padding-bottom: 18px;
         font-size: 27px;
         background-size: 95% 100%;
@@ -1265,7 +1268,13 @@ section.container.section__para__quem {
     }
     .btn__quero__ter__o__controle {
         background-size: 75% 100%;
-        height: 95px;
+        height: 135px;
+    }
+    .btn__compra__plano {
+        height: 100px;
+    }
+    .section__btn__comprar {
+        height: 120px;
     }
 }
 @media screen and (min-width: 1400px) {
@@ -1273,13 +1282,13 @@ section.container.section__para__quem {
         height: 105px;
     }
     .btn__compra__plano {
-        height: 110px;
+        height: 115px;
     }
     .section__btn__comprar {
         height: 120px;
     }
     .btn__funcoes__exclusivas {
-        height: 135px;
+        height: 145px;
     }
 }
 @media screen and (min-width: 1700px){
@@ -1327,7 +1336,6 @@ section.container.section__para__quem {
         margin-top: -23px;
     }
     .btn__quero__ter__o__controle {
-        height: 135px;
         padding-bottom: 24px;
         font-size: 29px;
     }
