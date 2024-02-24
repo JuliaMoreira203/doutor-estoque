@@ -19,7 +19,7 @@
     font-size: 20px;
 }
 .fundo__topo {
-    background-image: url(../../images/bg-topo-mobile.png);
+    background-image: url(../../images/bg-topo-mobile.webp);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ section.funcoes__exclusivas {
     font-size: 13px;
 }
 .evite__prejuizo{
-    background-image: url(../../images/bg-evite-prejuizo.png);
+    background-image: url(../../images/bg-evite-prejuizo.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -469,7 +469,7 @@ img.logo__doutor__estoque {
     text-transform: uppercase;
 }
 .funcoes__exclusivas_titulo{
-    background-image: url(../../images/imagens-fundo-funcoes-m_02.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-02.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -479,56 +479,56 @@ img.logo__doutor__estoque {
     justify-content: center;
 }
 .funcoes__exclusivas__bloco-a{
-    background-image: url(../../images/imagens-fundo-funcoes-m_03.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-07.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 180px;
 }
 .funcoes__exclusivas__bloco-b{
-    background-image: url(../../images/imagens-fundo-funcoes-m_04.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-06.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 165px;
 }
 .funcoes__exclusivas__bloco-c{
-    background-image: url(../../images/imagens-fundo-funcoes-m_05.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-05.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 150px;
 }
 .funcoes__exclusivas__bloco-d{
-    background-image: url(../../images/imagens-fundo-funcoes-m_06.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-06.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 165px;
 }
 .funcoes__exclusivas__bloco-e{
-    background-image: url(../../images/imagens-fundo-funcoes-m_07.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-07.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 170px;
 }
 .funcoes__exclusivas__bloco-f{
-    background-image: url(../../images/imagens-fundo-funcoes-m_08.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-08.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 200px;
 }
 .funcoes__exclusivas__bloco-g{
-    background-image: url(../../images/imagens-fundo-funcoes-m_09.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-09.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 200px;
 }
 .funcoes__exclusivas__bloco-h{
-    background-image: url(../../images/imagens-fundo-funcoes-m_10.png);
+    background-image: url(../../images/imagens-fundo-funcoes-m-10.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -698,7 +698,7 @@ footer{
     padding: 1em;
 }
 .depoimentos__quem__usa__recomenda{
-    background-image: url(../../images/bg-depoimentos-mobile.png);
+    background-image: url(../../images/bg-depoimentos-mobile.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -759,7 +759,7 @@ footer{
     color: var(--cor-azul-escuro);
 }
 .coluna__promovendo__uma__gestao{
-    background-image: url(../../images/bg-dinheiro-m.png);
+    background-image: url(../../images/bg-dinheiro-m.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -792,7 +792,7 @@ section.para__quem__somos {
     margin-top: 4em;
 }
 .para__quem__somos__foto{
-    background-image: url(../../images/fundo-quem-somos.png);
+    background-image: url(../../images/fundo-quem-somos.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -876,7 +876,7 @@ section.container.section__para__quem {
         padding-bottom: 1.5em;
     }
     .fundo__topo {
-        background-image: url(../../images/bg-topo-desktop.png);
+        background-image: url(../../images/bg-topo-desktop.webp);
         height: 26em;
     }
     .conteudo__topo {
@@ -920,7 +920,7 @@ section.container.section__para__quem {
         flex-direction: column;
     }
     .evite__prejuizo{
-        background-image: url(../../images/bg-evite-prejuizo-d.png);
+        background-image: url(../../images/bg-evite-prejuizo-d.webp);
         height: 1150px;
         /* padding-top: 3em; */
     }
@@ -1100,7 +1100,7 @@ section.container.section__para__quem {
         padding: 2em 2.8em 2.5em;
     }
     .depoimentos__quem__usa__recomenda{
-        background-image: url(../../images/bg-depoimentos-desktop.png);
+        background-image: url(../../images/bg-depoimentos-desktop.webp);
         background-size: contain;
         height: 700px;
         padding: 4em 0;
@@ -1127,7 +1127,7 @@ section.container.section__para__quem {
         margin: 4em 0;
     }
     .coluna__promovendo__uma__gestao {
-        background-image: url(../../images/bg-dinheiro-d.png);
+        background-image: url(../../images/bg-dinheiro-d.webp);
         width: 80%;
         height: 350px;
         display: flex;
@@ -1145,11 +1145,12 @@ section.container.section__para__quem {
         display: none;
     }
     .fundo__imagem__para__quem{
-        background-image: url(../../images/para-quem-somos-d.png);
+        background-image: url(../../images/para-quem-somos-d.webp);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
         height: 550px;
+        margin-top: 7em;
     }
     .conteudo__bloco__quem__somos {
         width: 80%;
@@ -1175,9 +1176,6 @@ section.container.section__para__quem {
         background-size: 85% 100%;
         font-size: 24px;
         padding-bottom: 10px;
-    }
-    .section__para__quem{
-        margin: 4em;
     }
     section.container.section__para__quem {
         display: block;
@@ -1270,6 +1268,20 @@ section.container.section__para__quem {
         height: 95px;
     }
 }
+@media screen and (min-width: 1400px) {
+    .btn__whatsapp {
+        height: 105px;
+    }
+    .btn__compra__plano {
+        height: 100px;
+    }
+    .section__btn__comprar {
+        height: 120px;
+    }
+    .btn__funcoes__exclusivas {
+        height: 135px;
+    }
+}
 @media screen and (min-width: 1700px){
     .fundo__topo {
         height: 42em;
@@ -1308,9 +1320,18 @@ section.container.section__para__quem {
     .coluna__promovendo__uma__gestao {
         height: 410px;
     }
+    .btn__funcoes__exclusivas {
+        height: 155px;
+        font-size: 36px;
+        padding-bottom: 24px;
+        margin-top: -23px;
+    }
+    .btn__quero__fazer__teste__gratis, .btn__funcoes__exclusivas {
+        height: 100px;
+    }
 }
 @media screen and (min-width: 1300px) and (max-width: 1700px){
     .evite__prejuizo {
-        padding-bottom: 7em;
+        padding-bottom: 12em;
     }
 }
