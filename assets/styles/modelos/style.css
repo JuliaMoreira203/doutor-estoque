@@ -914,7 +914,7 @@ section.container.section__para__quem {
         background-size: 90% 100%;
         height: 135px;
         font-size: 25px;
-        padding-bottom: 17px;
+        padding-bottom: 20px;
     }
     section.evite__prejuizo > div {
         flex-direction: column;
@@ -1182,6 +1182,7 @@ section.container.section__para__quem {
     }
     .btn__quero__fazer__teste__gratis, .btn__funcoes__exclusivas {
         height: 105px;
+        font-size: 25px;
     }
 }
 @media screen and (min-width: 1200px){
@@ -1291,6 +1292,11 @@ section.container.section__para__quem {
         height: 145px;
     }
 }
+@media screen and (min-width: 135px){
+    .fundo__imagem__para__quem {
+        height: 900px;
+    }
+}
 @media screen and (min-width: 1700px){
     .fundo__topo {
         height: 42em;
@@ -1301,9 +1307,7 @@ section.container.section__para__quem {
         padding: 1.5em 0;
         gap: 5em;
     }
-    .fundo__imagem__para__quem {
-        height: 900px;
-    }
+    
     .bloco__para__quem__somos__texto {
         margin-top: -20em;
     }    
