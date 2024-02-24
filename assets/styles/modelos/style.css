@@ -1273,7 +1273,7 @@ section.container.section__para__quem {
         height: 105px;
     }
     .btn__compra__plano {
-        height: 100px;
+        height: 110px;
     }
     .section__btn__comprar {
         height: 120px;
@@ -1330,6 +1330,9 @@ section.container.section__para__quem {
         height: 135px;
         padding-bottom: 24px;
         font-size: 29px;
+    }
+    .btn__quero__fazer__teste__gratis{
+        height: 100px;
     }
 }
 @media screen and (min-width: 1300px) and (max-width: 1700px){
