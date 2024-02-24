@@ -1326,8 +1326,10 @@ section.container.section__para__quem {
         padding-bottom: 24px;
         margin-top: -23px;
     }
-    .btn__quero__fazer__teste__gratis, .btn__funcoes__exclusivas {
-        height: 100px;
+    .btn__quero__ter__o__controle {
+        height: 135px;
+        padding-bottom: 24px;
+        font-size: 29px;
     }
 }
 @media screen and (min-width: 1300px) and (max-width: 1700px){
