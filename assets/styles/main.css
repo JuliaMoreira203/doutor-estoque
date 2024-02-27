@@ -1,6 +1,4 @@
-/* @import url(styles/style.css);
-@import url(styles/medias-desktop.css); */
-@import url(modelos/style.css);
+@import url(modelos/styles.css);
 
 @font-face { 
     font-family: 'Gilroy Regular'; 
