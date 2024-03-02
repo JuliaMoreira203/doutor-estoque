@@ -846,7 +846,7 @@ section.para__quem__somos {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 800px;
+    height: 700px;
 }
 .bloco__quem__somos {
     display: flex;
@@ -919,6 +919,11 @@ section.para__quem__somos {
 section.container.section__para__quem {
     display: none;
 }
+@media screen and (min-width: 400px){
+    .para__quem__somos__foto{
+        height: 750px;
+    }
+}
 @media screen and (min-width: 450px){
     .fundo__topo {
         min-height: 45em;
@@ -932,11 +937,10 @@ section.container.section__para__quem {
     .depoimentos__quem__usa__recomenda {
         padding: 5.5em 0;
     }
+    .para__quem__somos__foto {
+        height: 800px;
+    }
 }
-
-
-/* ISSO VAI SAIR */
-
 @media screnn and (min-width: 1000px) and (max-width: 1199px){
     .fundo__imagem__para__quem {
         height: 550px;
@@ -1036,7 +1040,6 @@ section.container.section__para__quem {
     }
 }
 @media screen and (min-width: 1700px){
-    
     .bloco__para__quem__somos__texto {
         margin-top: -20em;
     }    
