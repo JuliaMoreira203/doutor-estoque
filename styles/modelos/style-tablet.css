@@ -1,0 +1,497 @@
+@media screen and (min-width: 490px){
+    .para__quem__somos__foto {
+        height: 870px;
+    }
+    .bloco__para__quem__somos__texto {
+        margin-top: -17em;
+    }
+    .depoimentos__quem__usa__recomenda {
+        padding: 7.5em 0;
+    }
+    .evite__prejuizo__titulos__topos > h2 {
+        font-size: 3.8em;
+        padding: 35px 25px 0;
+    }
+    .evite__prejuizo__titulos__topos > h3 {
+        font-size: 2.75em;
+    }
+}
+@media screen and (min-width: 540px){
+    .para__quem__somos__foto {
+        height: 980px;
+    }
+    .bloco__para__quem__somos__texto {
+        margin-top: -20em;
+    }
+    .conteudo__bloco__quem__somos {
+        padding-top: 7.5em;
+    }
+    .evite__prejuizo {
+        min-height: 104em;
+    }
+    .fundo__topo {
+        min-height: 50em;
+    }
+    .conteudo__topo {
+        min-height: 49em;
+    }
+    .btn__compra__plano {
+        max-width: 470px;
+    }
+}
+@media screen and (min-width: 610px){
+    .para__quem__somos__foto {
+        height: 980px;
+    }
+    .bloco__para__quem__somos__texto {
+        margin-top: -25em;
+    }
+    
+    .card__preco__doutor__estoque{
+        max-width: 450px;
+    }
+    .evite__prejuizo {
+        min-height: 110em;
+    }
+    .evite__prejuizo__um,
+    .evite__prejuizo__dois,
+    .evite__prejuizo__card > p {
+        font-size: 1.325em;
+    }    
+    .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
+        max-width: 35em;
+    }
+}
+@media screen and (min-width: 660px){
+    .conteudo__topo__botao {
+        width: 100%;
+        max-width: 450px;
+    }
+    .conteudo__simplifique__botao {
+        max-width: 30em;
+    }
+    .para__quem__somos__foto {
+        min-height: 1200px;
+    }
+    .fundo__topo {
+        min-height: 55em;
+    }
+    .conteudo__topo {
+        min-height: 54em;
+    }
+    .coluna__promovendo__uma__gestao {
+        min-height: 350px;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .espaco__vazio{
+        display: none;
+    }
+    .barra__topo__md{
+        background-image: url(../../images/barra-v-desktop-teste.png);
+        background-size: contain;
+        height: 75px;
+        padding-bottom: 1.5em;
+    }
+    .fundo__topo {
+        background-image: url(../../images/bg-topo-desktop.webp);
+        min-height: 21em;
+    }
+    .conteudo__topo {
+        align-items: baseline;
+    }
+    .conteudo__topo {
+        min-height: 300px;
+        justify-content: space-around;
+        padding: 3em 1.5em 1.5em;
+    }
+    .conteudo__topo__botao {
+        max-width: 350px;
+    }
+
+    h2.conteudo__topo__escrita {
+        text-align: left;
+    }
+    .titulo__organize > h2 {
+        font-size: 43px;
+        margin-bottom: 0em;
+    }
+    .texto__organize > p {
+        font-family: var(--font-poppins);
+        color: var(--cor-cinza);
+        font-size: 21px;
+    }
+    img.logo__doutor__estoque__topo {
+        width: 450px;
+        margin: 4em auto 2em;
+    }
+    .texto__simplifique {
+        font-size: 27px;
+        max-width: 660px;
+    }
+    .conteudo__simplifique__botao > p {
+        font-size: 15px;
+        margin-top: -6px;
+    }
+    .conteudo__simplifique__botao {
+        max-width: 45em;
+    }
+    .btn__quero__ter__o__controle {
+        background-image: url(../../images/btn-desktop-2.png);
+        background-size: 100% 100%;
+        height: 135px;
+        font-size: 25px;
+        padding: 0 3em 20px;
+    }
+    section.evite__prejuizo > div {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .evite__prejuizo{
+        background-image: url(../../images/bg-evite-prejuizo-d.webp);
+        min-height: 66em;
+        /* padding-top: 3em; */
+    }
+    .evite__prejuizo__um,
+    .evite__prejuizo__dois,
+    .evite__prejuizo__titulos__topos > h2,
+    .evite__prejuizo__titulos__topos > h3 {
+        text-align: left;
+        padding: 0;
+    }
+    .evite__prejuizo__titulos__topos > h2 {
+        font-size: 40px;
+    }
+    .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
+        max-width: 41em;
+    }
+    .evite__prejuizo__titulos__topos > h3 {
+        font-size: 30px;
+    }
+    .evite__prejuizo__um,
+    .evite__prejuizo__dois,
+    .evite__prejuizo__card > p {
+        font-size: 16px;
+    }
+    .card__com__nossa__plataforma > img {
+        width: 15%;
+    }
+    .fundo__card__com__nossa__plataforma {
+        font-size: 18px;
+        padding: 45px 15px 40px;
+    }
+    .topicos__principais__vantagens__direita {
+        padding-left: 0em;
+    }
+    .topico__principais__direita {
+        justify-content: end;
+    }
+    .topico__principais__esquerda {
+        justify-content: start;
+    }
+    .topico__principais__titulo__contorno__direita {
+        padding: 3em 8em 3em 5em;
+        margin-left: -4em;
+        width: 66%;
+    }
+    .topico__principais__titulo__contorno__esquerda{
+        padding: 3em 4em 3em 8em;
+        margin-right: -4em;
+        width: 66%;
+    }
+    .topico__principais > img {
+        width: 12em;
+    }
+    .topico__principais__titulo__contorno__direita > h3, .topico__principais__titulo__contorno__esquerda > h3 {
+        font-size: 32px;
+        width: 66%;
+    }    
+    .topico__principais__titulo__contorno__direita > p, .topico__principais__titulo__contorno__esquerda > p {
+        color: #464d5f;
+        font-size: 21px;
+    }
+    .card__controle__de__estoque {
+        background-image: url(../../images/fundo-do-controle-de-estoque-d.png);
+        background-size: 55% 100%;
+        text-align: center;
+        margin-top: 6px;
+        padding-bottom: 25px;
+    }
+    .card__preco__doutor__estoque {
+        padding: 1.5em 2.5em;
+        max-width: 550px;
+    }
+    a.btn__compra__plano {
+        width: 46%;
+    }
+    .escrita__clique__no__btn, .bloco__btn__whatsapp > p {
+        padding: 0 0vw;
+    }
+    .text__dashboard {
+        font-size: 23px;
+        padding-right: 3em;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .image__como__funciona {
+        text-align: center;
+    }
+    .topico__lista__como__funciona > img {
+        width: 30px;
+    }
+    .topico__lista__como__funciona > p {
+        font-size: 21px;
+    }
+    .titulo__como__funciona {
+        font-size: 58px;
+    }
+    .linha__como__funciona > hr {
+        width: 41%;
+    }
+    h2.titulo__funcoes__exclusivas {
+        font-size: 65px;
+    }
+    .topico__funcao > img {
+        width: 75px;
+    }
+    .topico__funcao > p {
+        font-size: 21px;
+    }
+    .topico__funcao {
+        gap: 23px;
+    }
+    .conteudo__funcoes__botao {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn__funcoes__exclusivas{
+        background-image: url(../../images/btn-desktop.png);
+        padding-bottom: 18px;
+        font-size: 24px;
+        background-size: 100% 100%;
+        width: 600px;
+        height: 125px;
+        font-size: 27px;
+    }
+    .conteudo__topo__botao > p{
+        font-size: 12px;
+    }
+    .conteudo__funcoes__botao > p {
+        
+        margin-top: -5px;
+    }
+    section.funcoes__exclusivas {
+        margin-top: 4em;
+    }
+    .faq {
+        padding: 3em 3em 2em;
+    }
+    h2.titulo__faq,
+    .valor__plano {
+        font-size: 75px;
+    }
+    button.accordion-button.collapsed, button.accordion-button {
+        font-size: 21px;
+    }
+    .accordion-body {
+        padding: 30px 0 39px;
+        font-size: 19px;
+    }
+    .informacoes__de__contato {
+        height: 190px;
+        margin-top: 2em;
+    }
+    img.image__logo__branca {
+        width: 260px;
+    }
+    .dados__de__contato__telefones {
+        display: flex;
+        justify-content: flex-start;
+        gap: 35px;
+        align-items: center;
+    }
+    .dados__de__contato {
+        text-align: left;
+    }
+    .titulo__ainda__com__duvidas {
+        font-size: 45px;
+    }
+    .btn__whatsapp {
+        min-width: 550px;
+        background-size: 83% 100%;
+        height: 92px;
+        font-size: 24px;
+    }
+    .escrita__clique__no__btn, .bloco__btn__whatsapp > p {
+        font-size: 15px;
+    }
+    .bloco__para__quem__somos__texto {
+        margin-top: -12em;
+    }
+    .bloco__btn__whatsapp > p {
+        margin-top: 0px;
+    }
+    .card__depoimentos {
+        padding: 2em 2.8em 2.5em;
+    }
+    .depoimentos__quem__usa__recomenda{
+        background-image: url(../../images/bg-depoimentos-desktop.webp);
+        background-size: contain;
+        height: 700px;
+        padding: 4em 0;
+    }
+    .depoimentos__titulo > h2 {
+        font-size: 48px;
+        width: 35%;
+    }
+    .depoimentos__titulo > hr {
+        width: 28%;
+    }
+    .nome__empresa > h2 {
+        font-size: 26px;
+    }
+    .nome__empresa > p {
+        font-size: 18px;
+    }
+    .conteudo__depoimento > p {
+        font-size: 21px;
+    }
+    section.promovendo__uma__gestao {
+        display: flex;
+        justify-content: end;
+        margin: 4em 0;
+    }
+    .coluna__promovendo__uma__gestao {
+        background-image: url(../../images/bg-dinheiro-d.webp);
+        width: 80%;
+        min-height: 280px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 2em;
+    }
+    p.promovendo__uma__gestao__escrita {
+        font-size: 18px;
+    }
+    .promovendo__uma__gestao__degrade {
+        font-size: 26px;
+    }
+    .para__quem__somos__mobile{
+        display: none;
+    }
+    .fundo__imagem__para__quem{
+        background-image: url(../../images/para-quem-somos-d.webp);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 600px;
+        margin-top: 7em;
+    }
+    .conteudo__bloco__quem__somos {
+        width: 80%;
+        padding-top: 4em;
+    }
+    .para__quem__titulo {
+        font-size: 47px;
+    }
+    .escrita__e__a__nossa__plataforma {
+        height: 92px;
+        padding: 0.3em 1.5em 1em;
+        font-size: 20px;
+        border-radius: 26px;
+    }
+    .para__quem__somos__texto > p {
+        font-size: 18px;
+    }
+    .para__quem__somos__texto {
+        padding: 3em 3em 5em;
+        border-radius: 40px;
+    }
+    .btn__quem__somos__comecar__agora {
+        background-size: 85% 100%;
+        font-size: 24px;
+        padding-bottom: 10px;
+        max-width: 500px;
+    }
+    section.container.section__para__quem {
+        display: block;
+    }
+    a.btn__quero__fazer__teste__gratis {
+        height: 85px;
+        font-size: 19px;
+    }
+    .funcoes__exclusivas__bloco-h {
+        height: 400px;
+    }
+    .bloco__btn__whatsapp {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .como__funciona__section {
+        margin-top: 8em;
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 800px){
+    .fundo__topo {
+        min-height: 19em;
+    }
+    .conteudo__topo {
+        min-height: 250px;
+    }
+    .conteudo__topo__escrita {
+        font-size: 1.5em;
+        line-height: 25px;
+    }
+    .conteudo__topo__botao {
+        max-width: 300px;
+    }
+    a.btn__quero__fazer__teste__gratis {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    img.logo__doutor__estoque__topo {
+        width: 350px;
+    }
+    .coluna__promovendo__uma__gestao {
+        background-image: url(../../images/bg-dinheiro-d.webp);
+        width: 80%;
+        min-height: 230px;
+    }
+    .evite__prejuizo__titulos__topos {
+        padding-right: 10em;
+    }
+    .evite__prejuizo {
+        background-image: url(../../images/bg-evite-prejuizo-d.webp);
+        min-height: 53em;
+    }
+    .conteudo__bloco__quem__somos {
+        width: 50%;
+        padding-top: 4em;
+        float: inline-end;
+    }
+    .text__dashboard {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1000px){
+    .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
+        max-width: 55em;
+    }
+    .fundo__topo {
+        min-height: 25em;
+    }
+    .conteudo__topo {
+        min-height: 340px;
+    }
+    .depoimentos__quem__usa__recomenda {
+        height: 850px;
+    }
+}
+@media screen and (min-width: 1150px){
+    .depoimentos__quem__usa__recomenda {
+        height: 750px;
+    }
+}
