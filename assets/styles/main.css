@@ -1,4 +1,9 @@
 @import url(modelos/styles.css);
+@import url(modelos/style-mobile.css);
+@import url(modelos/style-tablet.css);
+@import url(modelos/style-notebook.css);
+@import url(modelos/style-visor.css);
+@import url(modelos/styles-diversos.css);
 
 @font-face { 
     font-family: 'Gilroy Regular'; 
@@ -50,3 +55,6 @@
     --cor-cinza-faq: #3e4557;
 }
 
+a{
+    text-decoration: none;
+}

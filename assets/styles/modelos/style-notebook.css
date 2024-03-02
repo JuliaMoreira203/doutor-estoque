@@ -1,0 +1,84 @@
+@media screen and (min-width: 1200px){
+    .fundo__topo {
+        min-height: 29em;
+    }
+    .conteudo__topo {
+        min-height: 400px;
+    }
+    .evite__prejuizo__titulos__topos {
+        padding-left: 6em;
+    }
+    .evite__prejuizo__um, .evite__prejuizo__dois, .evite__prejuizo__card > p {
+        font-size: 17px;
+    }
+    .conteudo__simplifique__botao {
+        max-width: 49em;
+    }
+    .btn__quero__ter__o__controle {
+        font-size: 25px;
+        padding: 0 3em 25px;
+    }
+    .conteudo__topo__escrita {
+        font-size: 40px;
+    }
+    .conteudo__topo__botao {
+        max-width: 500px;
+    }
+    a.btn__quero__fazer__teste__gratis {
+        height: 110px;
+        font-size: 25px;
+    }
+    p.promovendo__uma__gestao__escrita {
+        font-size: 21px;
+    }
+    .card__preco__doutor__estoque {
+        padding: 1.5em 2.5em;
+        max-width: 700px;
+        min-width: 650px;
+    }
+    .conteudo__bloco__quem__somos {
+        padding-top: 8em;
+    }
+    .bloco__para__quem__somos__texto {
+        margin-top: -15em;
+    }
+}
+@media screen and (min-width: 1300px){
+    .evite__prejuizo__um, .evite__prejuizo__dois, .evite__prejuizo__card > p {
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 1400px){
+    .fundo__topo {
+        min-height: 33em;
+    }
+    .conteudo__topo {
+        min-height: 400px;
+    }
+    .coluna__promovendo__uma__gestao {
+        min-height: 350px;
+    }
+    section.evite__prejuizo > div {
+        gap: 3em;
+    }
+    .titulo__organize > h2 {
+        font-size: 55px;
+        max-width: 290px;
+    }
+    .texto__simplifique {
+        font-size: 29px;
+    }
+    .evite__prejuizo {
+        padding-bottom: 3em;
+        min-height: 73em;
+    }
+    a.btn__quero__fazer__teste__gratis {
+        font-size: 22px;
+    }
+    .fundo__imagem__para__quem {
+        height: 850px;
+    }
+    .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
+        max-width: 65em;
+    }
+}

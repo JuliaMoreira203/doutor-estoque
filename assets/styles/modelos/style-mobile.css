@@ -1,0 +1,103 @@
+@media screen and (min-width: 300px) and (max-width: 360px){
+    .fundo__topo {
+        min-height: 32em;
+    }
+    .conteudo__topo {
+        min-height: 30em;
+    }
+    .conteudo__topo__escrita {
+        font-size: 1.4em;
+        line-height: 22px;
+    }
+    .btn__quero__fazer__teste__gratis, .btn__funcoes__exclusivas,
+    .btn__quero__ter__o__controle {
+        font-size: 0.925em;
+    }
+    img.logo__doutor__estoque__topo {
+        width: 230px;
+        margin: 3em auto 1.5em;
+    }
+    .titulo__organize > h2 {
+        font-size: 2em;
+    }
+    .texto__organize > p,
+    p.promovendo__uma__gestao__escrita,
+    .evite__prejuizo__um,
+    .fundo__card__com__nossa__plataforma,
+    .evite__prejuizo__card > p,
+    .topico__principais__titulo__contorno__direita > p, 
+    .topico__principais__titulo__contorno__esquerda > p,
+    .para__quem__somos__texto > p,
+    .topico__lista__como__funciona > p,
+    .topico__funcao > p{
+        font-size: 0.9em;
+    }
+    .promovendo__uma__gestao__degrade{
+        font-size: 1em;
+    }
+    .coluna__promovendo__uma__gestao {
+        min-height: 250px;
+    }
+    .evite__prejuizo__titulos__topos > h2 {
+        font-size: 2em;
+        padding: 0 25px 0;
+    }
+    .evite__prejuizo__titulos__topos > h3 {
+        font-size: 1.25em;
+    }
+    .evite__prejuizo {
+        min-height: 76em;
+        padding-bottom: 5em;
+    }
+    .titulo__principais__vantagens {
+        font-size: 2em;
+    }
+    .card__controle__de__estoque {
+        font-size: 1.45em;
+    }
+    img.logo__doutor__estoque {
+        width: 230px;
+    }
+    .card__preco__doutor__estoque > h3 {
+        font-size: 1.575em;
+        padding: 0 1em 1em;
+    }
+    .escrita__plano__basico {
+        font-size: 1.2em;
+    }
+    .valor__plano,
+    .para__quem__titulo,
+    .titulo__como__funciona {
+        font-size: 2.4em;
+    }
+    .centavos__mes {
+        font-size: 1em;
+    }
+    .escrita__mes {
+        font-size: 0.825em;
+    }
+    .btn__compra__plano {
+        height: 60px;
+        width: 85%;
+        font-size: 20px;
+    }
+    .section__btn__comprar {
+        height: 73px;
+    }
+    .para__quem__somos__foto {
+        height: 600px;
+    }
+    .escrita__clique__no__btn, .bloco__btn__whatsapp > p {
+        padding: 0; 
+    }
+    h2.titulo__funcoes__exclusivas,
+    .depoimentos__titulo > h2 {
+        font-size: 2.1em;
+    }
+    .depoimentos__quem__usa__recomenda {
+        height: 550px;
+    }
+    .titulo__ainda__com__duvidas {
+        font-size: 1.48em;
+    }
+}
