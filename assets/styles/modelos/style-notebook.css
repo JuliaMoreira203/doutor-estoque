@@ -47,6 +47,9 @@
     .evite__prejuizo__um, .evite__prejuizo__dois, .evite__prejuizo__card > p {
         font-size: 21px;
     }
+    .evite__prejuizo {
+        min-height: 68em;
+    }
 }
 @media screen and (min-width: 1400px){
     .fundo__topo {
