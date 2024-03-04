@@ -39,7 +39,7 @@
 .conteudo__topo__escrita {
     font-family: var(--font-gilroy-extrabold);
     color: var(--cor-branca);
-    font-size: 1.9em;
+    font-size: clamp(1.9rem, 2.5vw, 80vh);
     text-align: center;
     padding: 0.3em 0;
     line-height: 35px;
@@ -196,16 +196,16 @@ section.funcoes__exclusivas {
 }
 
 /* EVITE PREJUIZO */
-.evite__prejuizo{
+.evite__prejuizo {
     background-image: url(../../images/bg-evite-prejuizo.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
-    min-height: 93.75em;
+    min-height: 80.75em;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 6em;
+    padding: 4em 0;
 }
 .evite__prejuizo__titulos__topos,
 .evite__prejuizo__card {
@@ -225,6 +225,7 @@ section.funcoes__exclusivas {
     font-weight: 800;
     text-align: center;
     font-size: 1.75em;
+    padding: 0 1em;
 }
 .espaco__vazio {
     min-height: 19em;
@@ -939,6 +940,14 @@ section.container.section__para__quem {
     }
     .para__quem__somos__foto {
         height: 800px;
+    }
+}
+@media screen and (min-width: 470px){
+    .evite__prejuizo {
+        min-height: 90.75em;
+    }
+    .evite__prejuizo__titulos__topos > h2 {
+        padding: 25px 25px 0;
     }
 }
 @media screnn and (min-width: 1000px) and (max-width: 1199px){

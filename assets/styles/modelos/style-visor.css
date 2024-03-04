@@ -25,7 +25,7 @@
 }
 @media screen and (min-width: 1750px){
     .conteudo__topo__escrita {
-        font-size: 48px;
+        /* font-size: 48px; */
         line-height: 1.1em;
     }
     .texto__organize > p,
@@ -37,7 +37,8 @@
     .topico__principais__titulo__contorno__esquerda > p,
     .para__quem__somos__texto > p,
     .topico__lista__como__funciona > p,
-    .topico__funcao > p{
+    .topico__funcao > p,
+    .fundo__card__com__nossa__plataforma {
         font-size: 25px;
     }
     .promovendo__uma__gestao__degrade {
@@ -49,6 +50,12 @@
     .depoimentos__titulo > h2 {
         width: 25%;
     }
+    .evite__prejuizo__titulos__topos > h2 {
+        font-size: 65px;
+    }
+    .evite__prejuizo__titulos__topos > h3 {
+        font-size: 38px;
+    }
 }
 @media screen and (min-width: 1800px){
     .fundo__topo {
@@ -56,5 +63,10 @@
     }
     .conteudo__topo {
         min-height: 590px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .evite__prejuizo {
+        min-height: 90em;
     }
 }
