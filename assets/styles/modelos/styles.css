@@ -23,10 +23,10 @@
 /* TOPO MOBILE */
 .fundo__topo {
     background-image: url(../../images/bg-topo-mobile.webp);
-    background-position: center;
-    background-size: 100% 100%;
+    background-position: center bottom;
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    min-height: 40em;
+    min-height: 39em;
 }
 .conteudo__topo {
     min-height: 38em;
@@ -197,19 +197,28 @@ section.funcoes__exclusivas {
 
 /* EVITE PREJUIZO */
 .evite__prejuizo {
-    background-image: url(../../images/bg-evite-prejuizo.webp);
+    background-image: url(../../images/bg-dentista-mobile.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
     min-height: 80.75em;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 4em 0;
+    justify-content: center;
+    padding: 13vh 0 5em;
 }
 .evite__prejuizo__titulos__topos,
 .evite__prejuizo__card {
     max-width: 25em;
+}
+img.foto__dentista__mobile {
+    max-width: 100%;
+}
+.foto__dentista__desktop{
+    display: none;
+}
+.evite__prejuizo__card {
+    margin-top: -11em;
 }
 .evite__prejuizo__titulos__topos > h2 {
     color: #53e2ff;
@@ -844,9 +853,9 @@ section.para__quem__somos {
 }
 .para__quem__somos__foto{
     background-image: url(../../images/fundo-quem-somos.webp);
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     height: 700px;
 }
 .bloco__quem__somos {
@@ -943,9 +952,6 @@ section.container.section__para__quem {
     }
 }
 @media screen and (min-width: 470px){
-    .evite__prejuizo {
-        min-height: 90.75em;
-    }
     .evite__prejuizo__titulos__topos > h2 {
         padding: 25px 25px 0;
     }

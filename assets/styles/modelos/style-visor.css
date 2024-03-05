@@ -1,7 +1,4 @@
 @media screen and (min-width: 1500px){
-    .evite__prejuizo {
-        min-height: 75em;
-    }
     .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
         max-width: 65em;
     }
@@ -11,10 +8,10 @@
 }
 @media screen and (min-width: 1650px){
     .fundo__topo {
-        min-height: 36em;
+        min-height: 32em;
     }
     .conteudo__topo {
-        min-height: 500px;
+        min-height: 450px;
     }
     .coluna__promovendo__uma__gestao {
         padding-left: 5em;
@@ -25,7 +22,6 @@
 }
 @media screen and (min-width: 1750px){
     .conteudo__topo__escrita {
-        /* font-size: 48px; */
         line-height: 1.1em;
     }
     .texto__organize > p,
@@ -45,7 +41,7 @@
         font-size: 31px;
     }
     .evite__prejuizo {
-        min-height: 93em;
+        padding: 7vh 0 11em;
     }
     .depoimentos__titulo > h2 {
         width: 25%;
@@ -56,17 +52,18 @@
     .evite__prejuizo__titulos__topos > h3 {
         font-size: 38px;
     }
+    .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
+        max-width: max-content;
+    }
+    .evite__prejuizo__titulos__topos {
+        padding-left: 0;
+    }
 }
 @media screen and (min-width: 1800px){
     .fundo__topo {
-        min-height: 41em;
+        min-height: 35em;
     }
     .conteudo__topo {
-        min-height: 590px;
-    }
-}
-@media screen and (min-width: 1920px){
-    .evite__prejuizo {
-        min-height: 90em;
+        min-height: 520px;
     }
 }
