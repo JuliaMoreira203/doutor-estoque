@@ -13,7 +13,7 @@
         padding: 35px 25px 0;
     }
     .evite__prejuizo__titulos__topos > h3 {
-        font-size: 2.75em;
+        font-size: 2.2em;
     }
 }
 @media screen and (min-width: 540px){
@@ -26,9 +26,6 @@
     .conteudo__bloco__quem__somos {
         padding-top: 7.5em;
     }
-    .evite__prejuizo {
-        min-height: 104em;
-    }
     .fundo__topo {
         min-height: 50em;
     }
@@ -39,19 +36,52 @@
         max-width: 470px;
     }
 }
-@media screen and (min-width: 610px){
-    .para__quem__somos__foto {
-        height: 980px;
+@media screen and (min-width: 571px){
+    .evite__prejuizo {
+        padding: 19vh 0 5em;
     }
+}
+@media screen and (min-width: 577px){
+    .conteudo__topo {
+        min-height: 22em;
+        flex-direction: column;
+        justify-content: center;
+        gap: 35px;
+        align-items: center;
+    }
+    .fundo__topo{
+        background-image: url(../../images/topo-tablet.webp);
+        min-height: 23em;
+    }
+    .conteudo__topo__escrita {
+        text-align: left;
+    }
+    .informacoes__de__contato {
+        height: 190px;
+        margin-top: 2em;
+    }
+    .evite__prejuizo__titulos__topos > h2 {
+        padding: 0;
+        font-size: 3em;
+    }
+    .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
+        max-width: 28em;
+    }
+    .evite__prejuizo__card {
+        margin-bottom: 3em;
+    }
+}
+@media screen and (min-width: 600px){
+    .para__quem__somos__foto {
+        min-height: 1100px;
+    }
+}
+@media screen and (min-width: 610px){
     .bloco__para__quem__somos__texto {
         margin-top: -25em;
     }
-    
     .card__preco__doutor__estoque{
         max-width: 450px;
-    }
-    .evite__prejuizo {
-        min-height: 110em;
     }
     .evite__prejuizo__um,
     .evite__prejuizo__dois,
@@ -73,45 +103,42 @@
     .para__quem__somos__foto {
         min-height: 1200px;
     }
-    .fundo__topo {
-        min-height: 55em;
-    }
-    .conteudo__topo {
-        min-height: 54em;
-    }
     .coluna__promovendo__uma__gestao {
         min-height: 350px;
     }
 }
-
-@media screen and (min-width: 750px){
-    .espaco__vazio{
-        display: none;
+@media screen and (min-width: 700px){
+    .para__quem__somos__foto {
+        min-height: 1300px;
     }
+}
+@media screen and (min-width: 730px){
+    .evite__prejuizo {
+        padding: 26vh 0 5em;
+    }
+    .evite__prejuizo__titulos__topos > h2 {
+        padding: 0 1em;
+        margin-top: -1em;
+        font-size: 3em;
+    }
+}
+@media screen and (min-width: 740px){
+    .fundo__topo {
+        min-height: 28em;
+    }
+    .conteudo__topo {
+        min-height: 26em;
+    }    
+}
+@media screen and (min-width: 750px){
     .barra__topo__md{
         background-image: url(../../images/barra-v-desktop-teste.png);
         background-size: contain;
         height: 75px;
         padding-bottom: 1.5em;
     }
-    .fundo__topo {
-        background-image: url(../../images/bg-topo-desktop.webp);
-        min-height: 21em;
-    }
-    .conteudo__topo {
-        align-items: baseline;
-    }
-    .conteudo__topo {
-        min-height: 300px;
-        justify-content: space-around;
-        padding: 3em 1.5em 1.5em;
-    }
     .conteudo__topo__botao {
         max-width: 350px;
-    }
-
-    h2.conteudo__topo__escrita {
-        text-align: left;
     }
     .titulo__organize > h2 {
         font-size: 43px;
@@ -144,22 +171,6 @@
         font-size: 25px;
         padding: 0 3em 20px;
     }
-    section.evite__prejuizo > div {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .evite__prejuizo{
-        background-image: url(../../images/bg-evite-prejuizo-d.webp);
-        min-height: 66em;
-        /* padding-top: 3em; */
-    }
-    .evite__prejuizo__um,
-    .evite__prejuizo__dois,
-    .evite__prejuizo__titulos__topos > h2,
-    .evite__prejuizo__titulos__topos > h3 {
-        text-align: left;
-        padding: 0;
-    }
     .evite__prejuizo__titulos__topos > h2 {
         font-size: 40px;
     }
@@ -167,7 +178,7 @@
         max-width: 41em;
     }
     .evite__prejuizo__titulos__topos > h3 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .evite__prejuizo__um,
     .evite__prejuizo__dois,
@@ -178,8 +189,14 @@
         width: 15%;
     }
     .fundo__card__com__nossa__plataforma {
-        font-size: 18px;
+        font-size: 16px;
         padding: 45px 15px 40px;
+    }
+    .evite__prejuizo__um {
+        margin-top: 1em;
+    }
+    .evite__prejuizo__card {
+       margin-bottom: 0em;
     }
     .topicos__principais__vantagens__direita {
         padding-left: 0em;
@@ -298,10 +315,6 @@
     .accordion-body {
         padding: 30px 0 39px;
         font-size: 19px;
-    }
-    .informacoes__de__contato {
-        height: 190px;
-        margin-top: 2em;
     }
     img.image__logo__branca {
         width: 260px;
@@ -434,24 +447,7 @@
         margin-top: 8em;
     }
 }
-@media screen and (min-width: 750px) and (max-width: 800px){
-    .fundo__topo {
-        min-height: 19em;
-    }
-    .conteudo__topo {
-        min-height: 250px;
-    }
-    .conteudo__topo__escrita {
-        font-size: 1.5em;
-        line-height: 25px;
-    }
-    .conteudo__topo__botao {
-        max-width: 300px;
-    }
-    a.btn__quero__fazer__teste__gratis {
-        font-size: 17px;
-        margin-top: 15px;
-    }
+@media screen and (min-width: 750px) and (max-width: 772px){
     img.logo__doutor__estoque__topo {
         width: 350px;
     }
@@ -459,13 +455,6 @@
         background-image: url(../../images/bg-dinheiro-d.webp);
         width: 80%;
         min-height: 230px;
-    }
-    .evite__prejuizo__titulos__topos {
-        padding-right: 10em;
-    }
-    .evite__prejuizo {
-        background-image: url(../../images/bg-evite-prejuizo-d.webp);
-        min-height: 53em;
     }
     .conteudo__bloco__quem__somos {
         width: 50%;
@@ -476,23 +465,88 @@
         text-align: center;
     }
 }
+@media screen and (min-width: 751px) and (max-width: 767px){
+    .evite__prejuizo {
+        padding: 14vh 0 5em;
+    }
+}
+@media screen and (min-width: 768px){
+    .conteudo__bloco__quem__somos {
+        float: left !important;
+    }
+    .evite__prejuizo__um,
+    .evite__prejuizo__dois,
+    .evite__prejuizo__titulos__topos > h2,
+    .evite__prejuizo__titulos__topos > h3 {
+        text-align: left;
+        padding: 0;
+    }
+    .evite__prejuizo {
+        min-height: 40em;
+        padding: 11vh 0 7em;
+    }
+    
+    .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
+        max-width: fit-content;
+    }
+    .evite__prejuizo__titulos__topos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto__dentista__desktop{
+        display: block;
+        max-width: 100%;
+    }
+    .foto__dentista__mobile{
+        display: none;
+    }
+    .evite__prejuizo__card {
+        margin-top: -5em;
+    }
+}
+@media screen and (min-width: 900px){
+    .fundo__topo {
+        background-image: url(../../images/bg-topo-desktop.webp);
+        min-height: 20em;
+    }
+    .conteudo__topo {
+        min-height: 280px;
+        padding: 3em 1.5em 1.5em;
+        align-items: baseline;
+        gap: 15px;
+    }
+    .evite__prejuizo {
+        padding: 10vh 0 7em;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .conteudo__topo {
+        align-items: end;
+    }
+}
 @media screen and (min-width: 998px){
     .fundo__imagem__para__quem{
-        min-height: 600px;
+        min-height: 630px;
     }
 }
 @media screen and (min-width: 1000px){
     .evite__prejuizo__titulos__topos, .evite__prejuizo__card {
         max-width: 55em;
     }
-    .fundo__topo {
-        min-height: 25em;
-    }
-    .conteudo__topo {
-        min-height: 340px;
-    }
     .depoimentos__quem__usa__recomenda {
         height: 850px;
+    }
+    .evite__prejuizo__titulos__topos > h2 {
+        font-size: 52px;
+    }
+    .evite__prejuizo__titulos__topos > h3 {
+        font-size: 32px;
+    }
+}
+@media screen and (min-width: 1083px){
+    .evite__prejuizo__card {
+        margin-top: -8em;
     }
 }
 @media screen and (min-width: 1150px){
